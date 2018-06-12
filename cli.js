@@ -11,8 +11,8 @@ const momentDurationFormatSetup = require('moment-duration-format');
 momentDurationFormatSetup(moment);
 
 const cli = meow(`
-	Usage
-    $ alarm <time> --minutes
+  Usage
+    $ alarm <time> [flag]
 
   Options
     --hours, -H      TIME flag
