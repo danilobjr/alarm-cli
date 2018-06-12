@@ -26,6 +26,7 @@
     "chalk": "2.4.1",
     "meow": "5.0.0",
     "moment": "2.22.2",
-    "moment-duration-format": "2.2.2"
+    "moment-duration-format": "2.2.2",
+    "update-notifier": "2.5.0"
   }
 }
