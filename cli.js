@@ -12,7 +12,7 @@ momentDurationFormatSetup(moment);
 
 const cli = meow(`
 	Usage
-    $ terminal-alarm <time>
+    $ alarm <time> --minutes
 
   Options
     --hours, -H      TIME flag
@@ -24,8 +24,8 @@ const cli = meow(`
     --version        Show version of this package
 
 	Examples
-	  $ terminal-alarm 33 -M
-	  $ terminal-alarm 5 --seconds --silence
+	  $ alarm 33 -M
+	  $ alarm 5 --seconds --silence
 `, {
     flags: {
       hours: {
