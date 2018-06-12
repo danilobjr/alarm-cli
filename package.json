@@ -1,12 +1,17 @@
 {
   "name": "terminal-alarm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
-  "bin": "cli.js",
+  "bin": {
+    "alarm": "./cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "terminal",
+    "alarm"
+  ],
   "author": {
     "name": "Danilo Barros",
     "email": "danilobjr@gmail.com",
