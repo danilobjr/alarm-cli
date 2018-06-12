@@ -120,7 +120,6 @@ function start() {
         process.exit();
       }
 
-      // console.log('\x07');
       console.log('\u0007');
       stop();
     }
