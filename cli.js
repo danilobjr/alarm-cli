@@ -7,6 +7,7 @@ const updateNotifier = require('update-notifier');
 const chalk = require('chalk');
 const moment = require('moment');
 const momentDurationFormatSetup = require('moment-duration-format');
+const clock = require('./clock');
 
 momentDurationFormatSetup(moment);
 
@@ -109,12 +110,14 @@ let interval;
 const stream = process.stdout;
 
 function start() {
-  interval = setInterval(function () {
-    stream.clearLine();
-    stream.cursorTo(0);
-    stream.write(elapsedTime());
+  clock.draw(getRemainingTime());
+  duration.subtract(1, 's');
 
-    if (duration.format('HH:mm:ss', { trim: false }) === '00:00:00') {
+  interval = setInterval(function () {
+    const remainingTime = getRemainingTime();
+    clock.draw(remainingTime);
+
+    if (remainingTime === '00:00:00') {
       if (flags['silence']) {
         stop();
         process.exit();
@@ -126,13 +129,15 @@ function start() {
 
     duration.subtract(1, 's');
   }, 1000);
+
+  // process.stdout.on('resize', () => clock.draw(getRemainingTime()));
 }
 
 function stop() {
   clearInterval(interval);
 }
 
-function elapsedTime() {
+function getRemainingTime() {
   if (!!flags['humanize']) {
     return duration.humanize();
   }
