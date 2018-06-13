@@ -19,16 +19,15 @@ $ alarm --help
     $ alarm <time> [flag]
 
   Options
-    --hours, -H      TIME flag
-    --minutes, -M    TIME flag
-    --seconds, -S    TIME flag
-    --humanize, -h   Show remaining time in a friendly way
-    --silence, -s    Does not emits sound on stop
+    --hours, -h      TIME flag
+    --minutes, -m    TIME flag
+    --seconds, -s    TIME flag
+    --silence, -S    Does not emits sound on stop
     --help           Show this text in console
     --version        Show version of this package
 
   Examples
-    $ alarm 33 -M
+    $ alarm 33 -m
     $ alarm 5 --seconds --silence
 ```
 
