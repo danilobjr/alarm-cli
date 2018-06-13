@@ -82,12 +82,17 @@ function doClock(time) {
   const { columns, rows } = termSize();
   const clockLines = buildClock(time);
 
-  const clockWidth = clockLines[0].length;
+  // const clockWidth = clockLines[0].length;
+  const clockWidth = 50;
   const clockLeft = ' '.repeat(Math.max(0, Math.ceil(columns / 2 - clockWidth / 2)));
 
-  printEmptyLines(themeConfig.clock.paddingTop);
+  const padding = rows / 2 - 3;
+
+  printEmptyLines(padding);
+  // printEmptyLines(themeConfig.clock.paddingTop);
   clockLines.forEach(line => print(clockLeft + line));
-  printEmptyLines(themeConfig.clock.paddingBottom);
+  printEmptyLines(padding);
+  // printEmptyLines(themeConfig.clock.paddingBottom);
 }
 
 function draw(time) {
