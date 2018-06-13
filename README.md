@@ -4,6 +4,8 @@
 
 Works on macOS, Linux and Windows.
 
+<p align="center"><img src="/media/demo.gif"></p>
+
 ## Install
 
 ```
