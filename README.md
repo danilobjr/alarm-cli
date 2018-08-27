@@ -1,8 +1,6 @@
 # terminal-alarm
 
-> Countdown with sound in your terminal
-
-Works on macOS, Linux and Windows.
+Countdown in your terminal
 
 <p align="center"><img src="/media/demo.gif"></p>
 
