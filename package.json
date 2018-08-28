@@ -1,7 +1,7 @@
 {
   "name": "terminal-alarm",
   "version": "0.3.1",
-  "description": "Countdown with sound in your terminal",
+  "description": "Countdown in your terminal",
   "bin": {
     "alarm": "./cli.js"
   },
