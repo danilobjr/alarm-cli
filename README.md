@@ -1,19 +1,27 @@
-# terminal-alarm
+# alarm-cli
 
 Countdown alarm in your terminal
 
 <p align="center"><img src="/media/demo.gif"></p>
 
+## Requirements
+
+- [Node.js](https://nodejs.org/)
+
 ## Install
 
+Open a terminal and install _alarm-cli_ globally by running the following command.
+
 ```
-$ npm install --global terminal-alarm
+$ npm install --global alarm-cli
 ```
 
 ## Usage
 
 ```
 $ alarm --help
+
+  Countdown alarm in your terminal
 
   Usage
     $ alarm <time> [flag]
@@ -33,4 +41,4 @@ $ alarm --help
 
 ## License
 
-MIT © [Danilo Barros](https://danilobjr.mit-license.org/)
+MIT © Made with <strike>love</strike> _a keyboard_ by [Danilo Barros](https://danilobjr.mit-license.org/)
