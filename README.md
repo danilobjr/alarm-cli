@@ -1,6 +1,6 @@
 # terminal-alarm
 
-Countdown in your terminal
+Countdown alarm in your terminal
 
 <p align="center"><img src="/media/demo.gif"></p>
 
