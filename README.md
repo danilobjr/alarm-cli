@@ -2,7 +2,7 @@
 
 Countdown alarm in your terminal.
 
-<p align="center"><img src="/media/demo.gif"></p>
+<p align="center"><img src="/media/alarm.gif"></p>
 
 ## Requirements
 
