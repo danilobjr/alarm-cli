@@ -8,5 +8,7 @@
   "parserOptions": {
     "ecmaVersion": 11
   },
-  "rules": {}
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"]
+  }
 }
