@@ -1,12 +1,12 @@
 {
   "name": "alarm-cli",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Countdown alarm in your terminal",
   "bin": {
     "alarm": "./lib/cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./lib/cli.js"
   },
   "keywords": [
     "alarm",
@@ -24,12 +24,21 @@
   },
   "license": "MIT",
   "dependencies": {
+    "beeper": "2.0.0",
     "chalk": "2.4.1",
     "meow": "5.0.0",
     "moment": "2.22.2",
     "moment-duration-format": "2.2.2",
-    "player-cli": "1.0.1",
     "term-size": "1.2.0",
     "update-notifier": "2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "7.2.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "2.21.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "prettier": "2.0.5"
   }
 }
