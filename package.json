@@ -3,10 +3,10 @@
   "version": "0.5.2",
   "description": "Countdown alarm in your terminal",
   "bin": {
-    "alarm": "./lib/cli.js"
+    "alarm": "./lib/index.js"
   },
   "scripts": {
-    "start": "node ./lib/cli.js"
+    "start": "node ./lib/index.js"
   },
   "keywords": [
     "alarm",
