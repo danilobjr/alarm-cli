@@ -24,19 +24,19 @@ $ alarm --help
   Countdown alarm in your terminal
 
   Usage
-    $ alarm <time> [flag]
+    $ alarm <flag> <time> [--silence]
 
   Options
-    --hours, -h      TIME flag
-    --minutes, -m    TIME flag
-    --seconds, -s    TIME flag
-    --silence, -S    Does not emits sound on stop
-    --help           Show this text in console
-    --version        Show version of this package
+    --hours, -h      Time flag
+    --minutes, -m    Time flag
+    --seconds, -s    Time flag
+    --silence, -S    Does not beep on stop
+    --help           Show this text
+    --version        Show version
 
   Examples
-    $ alarm 33 -m
-    $ alarm 5 --seconds --silence
+    $ alarm -m 33
+    $ alarm --seconds 5 --silence
 ```
 
 ## License
