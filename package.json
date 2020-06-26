@@ -1,7 +1,7 @@
 {
   "name": "alarm-cli",
   "version": "0.5.2",
-  "description": "Countdown alarm in your terminal",
+  "description": "A responsive countdown alarm in your terminal",
   "bin": {
     "alarm": "./lib/index.js"
   },

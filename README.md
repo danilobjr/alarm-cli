@@ -1,6 +1,6 @@
 # alarm-cli
 
-Countdown alarm in your terminal.
+A responsive countdown alarm in your terminal.
 
 <p align="center"><img src="/media/alarm.gif"></p>
 
@@ -21,10 +21,10 @@ $ npm install --global alarm-cli
 ```
 $ alarm --help
 
-  Countdown alarm in your terminal
+  A responsive countdown alarm in your terminal
 
   Usage
-    $ alarm <flag> <time> [--silence]
+    $ alarm <flag> <time> [--silence|-S]
 
   Options
     --hours, -h      Time flag
